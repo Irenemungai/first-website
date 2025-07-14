@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+   background-image: url(pexels-cartier-1198802.jpg);
+  background-repeat:no-repeat ;
+  background-size:cover;
+
+}
+
+h1 {
+  text-shadow: 5px 5px 5px gray;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transform: translateX(250px);
+}
+
+h2 {
+  border-style ;
+  mask-border-outset: ;
+  text-decoration-style: 5 px black;
+  text-decoration: wavy black;
+  color: #0c356a;
+}
+
+h3 {
+  color: #0c356a;
+  text-shadow: 5px 5px 5px black;
+}
+
+a {
+  text-decoration: none;
+  color: #03a6a1;
+}
+
+.list-items {
+  font-style: var(Cambria);
+  color: rgb(25, 25, 182);
+ 
+
+}
+
+.nature-beauty {
+  position: relative;
+  width: 200px;
+  animation: moveBackAndForth 5s infinite alternate;
+}
+
+@keyframes moveBackAndForth {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+a:after {
+  transform: scale(0);
+  transform-origin: center;
+}
+
+@keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: aqua;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+a:hover {
+  animation: colorChange is infinite;
+}
